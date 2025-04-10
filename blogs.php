@@ -17,7 +17,8 @@
   <link rel="stylesheet" href="assets/css/plugins/mobile.css">
   <link rel="stylesheet" href="assets/css/plugins/owlcarousel.min.css">
   <link rel="stylesheet" href="assets/css/plugins/swiper-bundle.min.css">
-  <link rel="stylesheet" href="assets/css/plugins/sidebar.css">
+  <link rel="styleshgit status
+eet" href="assets/css/plugins/sidebar.css">
   <link rel="stylesheet" href="assets/css/plugins/slick-slider.css">
   <link rel="stylesheet" href="assets/css/plugins/nice-select.css">
   <link rel="stylesheet" href="assets/css/plugins/lightbox.css">

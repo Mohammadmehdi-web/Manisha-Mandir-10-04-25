@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Manisha Mandir||History</title>
+  <title>Manisha Mandir||Media & Events</title>
 
   <!--=====FAB ICON=======-->
   <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon" />
@@ -26,6 +26,9 @@
     /* -------- */
       .vl-event-area .vl-single-event4 .content .icon-flex{
         padding-bottom: 12px;
+      }
+      .vl-work5 .vl-single-work-box.active{
+        background-color: #29166f;
       }
       /* ------------ */
       .preloader {
@@ -90,133 +93,14 @@
 </head>
 
 <body class="homepage1-body">
-  <!--===== PRELOADER STARTS =======-->
-  <div class="preloader">
-    <div class="loading-container">
-      <div class="loading"></div>
-      <div id="loading-icon"><img src="assets/img/logo.png" alt="" /></div>
-    </div>
-  </div>
-  <!--===== PRELOADER ENDS =======-->
+
 
   <!--=====HEADER START=======-->
-  <header>
-    <div class="header-area header4 homepage1 header header-sticky d-none d-lg-block mt-20" id="header">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="header-elements header-elements-1 header-elements-4">
-              <div class="site-logo">
-                <a href="#"><img src="assets/img/logo.png" style="height: 80px" alt="" /></a>
-              </div>
-              <div class="main-menu main-menu-4">
-                <ul>
-                  <li><a href="index.html">Home</a></li>
-                  <li>
-                    <a href="#">About <i class="fa-solid fa-angle-down"></i></a>
-                    <ul class="dropdown-padding">
-                      <li><a href="founder-message.html">Founder's Message</a></li>
-                      <li><a href="history.html">History</a></li>
-                      <li>
-                        <a href="mission-journey.html">Mission & Journey</a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    <a href="#">Our Initiatives <i class="fa-solid fa-angle-down"></i></a>
-                    <ul class="dropdown-padding">
-                      <li><a href="child-welfare.html">Child Welfare </a></li>
-                      <li><a href="girl-education.html">Girls Education</a></li>
-                      <li><a href="elderly-care.html">Elderly Care</a></li>
-                      <li>
-                        <a href="community-outreach.html">Community Outreach</a>
-                      </li>
-                    </ul>
-                  </li>
-
-                  <li><a href="#">Media & Events</a></li>
-                  <li><a href="#">Volunteer</a></li>
-                  <li><a href="#">Blogs</a></li>
-                  <li><a href="#">Contact Us</a></li>
-                </ul>
-              </div>
-              <div class="btn-area4">
-                <a href="#" class="header-btn1 headbtn4">Donate Now
-                  <span><i class="fa-solid fa-arrow-right"></i></span></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
+  <?php
+    include('header.php');
+  ?>
   <!--=====HEADER END =======-->
 
-  <!--===== MOBILE HEADER STARTS =======-->
-  <div class="mobile-header mobile-haeder4 d-block d-lg-none">
-    <div class="container">
-      <div class="col-12">
-        <div class="mobile-header-elements">
-          <div class="mobile-logo">
-            <a href="#"><img style="height: 60px" src="assets/img/logo.png" alt="" /></a>
-          </div>
-          <div class="mobile-nav-icon mobile-nav-icon3 dots-menu">
-            <i class="fa-solid fa-bars"></i>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="mobile-sidebar mobile-sidebar1">
-    <div class="logosicon-area">
-      <div class="logos">
-        <img src="assets/img/logo.png" style="height: 80px" alt="" />
-      </div>
-      <div class="menu-close">
-        <i class="fa-solid fa-xmark"></i>
-      </div>
-    </div>
-    <div class="mobile-nav mobile-nav1">
-      <ul class="mobile-nav-list nav-list1">
-        <li><a href="#">Home</a></li>
-        <li>
-          <a href="#">About</a>
-          <ul class="sub-menu">
-            <li><a href="#">Founder's Message</a></li>
-            <li><a href="#">History</a></li>
-            <li><a href="#">Mission & Journey</a></li>
-          </ul>
-        </li>
-        <li>
-          <a href="#">Our Initiatives </a>
-          <ul class="sub-menu">
-            <li><a href="#">Child Welfare </a></li>
-            <li><a href="#">Girls Education</a></li>
-            <li><a href="#">Elderly Care</a></li>
-            <li><a href="#">Community Outreach</a></li>
-          </ul>
-        </li>
-        <li><a href="#">Media & Events</a></li>
-        <li><a href="#">Volunteer</a></li>
-        <li><a href="#">Blogs</a></li>
-        <li><a href="#">Contact Us</a></li>
-      </ul>
-
-      <div class="allmobilesection">
-        <!-- btn -->
-        <div class="vl-about-btn">
-          <div class="btn-area4">
-            <a href="#" class="header-btn1">Donate Now <span><i
-                  class="fa-solid fa-arrow-right"></i></span></a>
-          </div>
-        </div>
-
-       
-      </div>
-    </div>
-  </div>
-  <!--===== MOBILE HEADER STARTS =======-->
 
   <!--===== Banner AREA STARTS =======-->
 <section class="vl-breadcrumb" style="background-image: url(assets/img/breadcrumb/vl-abuot-breadcrumb.png);">
@@ -227,13 +111,12 @@
       <div class="row">
         <div class="col-lg-5">
           <div class="vl-breadcrumb-title">
-            <h2 class="heading">History</h2>
+            <h2 class="heading">Media & Events</h2>
               <div class="vl-breadcrumb-list">
                 <span><a href="index.html">Home</a></span>
+                
                 <span class="dvir"><i class="fa-solid fa-angle-right"></i></span>
-                <span><a class="#" href="#">About</a></span>
-                <span class="dvir"><i class="fa-solid fa-angle-right"></i></span>
-                <span><a class="active" href="#">History</a></span>
+                <span><a class="active" href="#">Media & Events</a></span>
               </div>
           </div>
         </div>
@@ -243,79 +126,78 @@
   <!--===== Banner AREA ENDS =======-->
 
   <!--===== HERO AREA ENDS =======-->
-  <!--===== Our History AREA STARTS =======-->
-<section id="about" class="vl-about4 sp2">
+  <!--===== Gallery AREA STARTS =======-->
+<section class="vl-gallery sp2">
     <div class="container">
-      <div class="row flex-lg-row flex-column-reverse">
-        <div class="col-lg-6">
-          <div class="vl-about-thumb mb-30">
-            <div class="row">
-              <div class="col-lg-6 col-md-6">
-                <div class="thumb-1 mb-30 reveal">
-                  <img class="w-100" src="assets/img/about/vl-about-4.1.png" alt="">
-                </div>
-              </div>
-              <div class="col-lg-6 col-md-6">
-                <div class="thumb-2">
-                  <div class="shape d-none d-md-block"><img src="assets/img/shape/hand-shape4.1.png" alt=""></div>
-                  <img class="thmb2 reveal w-100" src="assets/img/about/vl-about-4.2.png" alt="">
-                </div>
-              </div>
-            </div>
-          </div>
+      <div class="vl-gallery-content mb-60">
+        <div class="vl-section-title-1">
+          <h5 class="subtitle" data-aos="fade-right" data-aos-duration="800" data-aos-delay="300">Media & Events</h5>
+          <h2 class="title text-anime-style-3">Moments That Matter</h2>
+          
         </div>
-        <div class="col-lg-6">
-          <div class="vl-about-content mb-30 ml-50">
-            <div class="vl-section-title4">
-              <h5 class="subtitle" data-aos="fade-left" data-aos-duration="800" data-aos-delay="300">Our History</h5>
-              <h2 class="title">A journey born from loss, shaped by love, and built on hope.</h2>
-              <p class=" text-justify para pb-16" data-aos="fade-left" data-aos-duration="800" data-aos-delay="300">Manisha Mandir was founded in the year 1985 by Dr. Sarojini Agarwal — not as part of a government plan or social scheme, but as an emotional response from a mother’s heart filled with pain and compassion.</p>
-              <p class=" text-justify para pb-16" data-aos="fade-left" data-aos-duration="800" data-aos-delay="300">
-                In 1978, Dr. Sarojini tragically lost her beloved daughter Manisha in a road accident. The incident changed her life forever. But instead of letting grief consume her, she chose to transform her sorrow into a source of hope for others.Dr. Agarwal began by giving shelter to two orphaned girls in just three rooms of her home. With time, support from society followed, and this humble beginning grew into a full-fledged institution that has cared for over 800 girls to date.</p>
-            </div>
-            
-           
-          </div>
-        </div>
+        
       </div>
-    </div>
-  </section>
-  <!--===== ABOUT AREA ENDS =======-->
-
-  <!--===== Our Purpose AREA STARTS =======-->
-<section class="vl-about-mission-bg sp2">
-    <div class="container">
       <div class="row">
-        <div class="col-lg-10 mx-auto">
-          <div class="row align-items-center">
-            <div class="col-lg-6">
-              <div class="mision-thumb mb-30">
-                <img class="w-100" src="assets/img/IMG-20240227-WA0061-1024x770.jpg" alt="">
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="mission-content  mb-30">
-                <h2 class="title pb-20"> Our Purpose</h2>
-                <p class="para pb-16">Manisha Mandir is not just a shelter — it is a family. Every girl here receives: </p>
-                
-  
-                <!-- icon list -->
-                <div class="icon-list-box pt-20">
-                  <ul>
-                    <li><span><i class="fa-solid fa-check"></i></span>Safety and love</li>
-                    <li><span><i class="fa-solid fa-check"></i></span>Quality education</li>
-                    <li><span><i class="fa-solid fa-check"></i></span>Vocational and life skill training</li>
-                    <li><span><i class="fa-solid fa-check"></i></span>Mental and emotional support</li>
-                  </ul>
-              </div>
-              </div>
-            </div>
+        <!-- single gallery box -->
+        <div class="col-lg-6 col-md-6 mb-30">
+          <div class="vl-single-box" data-aos="zoom-in-up" data-aos-duration="800" data-aos-delay="300">
+            <a href="assets/img/खुशियों के वो लम्हे/1.jpg" data-lightbox="image-1"><img class="w-100" src="assets/img/खुशियों के वो लम्हे/1.jpg" alt=""></a>
+              <a href="assets/img/खुशियों के वो लम्हे/1.jpg" data-lightbox="image-1" class="search-ic">
+              <span><img src="assets/img/icons/vl-gallery-search-1.1.svg" alt=""></span>
+            </a>
+          </div>
+        </div>
+        <!-- single gallery box -->
+        <div class="col-lg-3 col-md-6 mb-30">
+          <div class="vl-single-box" data-aos="zoom-in-up" data-aos-duration="900" data-aos-delay="300">
+            <a href="assets/img/खुशियों के वो लम्हे/10.jpg" data-lightbox="image-1"><img class="w-100" src="assets/img/खुशियों के वो लम्हे/10.jpg" alt=""></a>
+            <a href="assets/img/खुशियों के वो लम्हे/10.jpg" data-lightbox="image-1" class="search-ic">
+            <span><img src="assets/img/icons/vl-gallery-search-1.1.svg" alt=""></span>
+            </a>
+          </div>
+        </div>
+        <!-- single gallery box -->
+        <div class="col-lg-3 col-md-6 mb-30">
+          <div class="vl-single-box" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="300">
+            <a href="assets/img/खुशियों के वो लम्हे/3.jpg" data-lightbox="image-1"><img class="w-100" src="assets/img/खुशियों के वो लम्हे/3.jpg" alt=""></a>
+            <a href="assets/img/खुशियों के वो लम्हे/3.jpg" data-lightbox="image-1" class="search-ic">
+            <span><img src="assets/img/icons/vl-gallery-search-1.1.svg" alt=""></span>
+            </a>
+          </div>
+        </div>
+        <!-- single gallery box -->
+        <div class="col-lg-3 col-md-6 mb-30">
+          <div class="vl-single-box" data-aos="zoom-in-up" data-aos-duration="1100" data-aos-delay="300">
+            <a href="assets/img/खुशियों के वो लम्हे/5.jpg" data-lightbox="image-1"><img class="w-100" src="assets/img/खुशियों के वो लम्हे/5.jpg" alt=""></a>
+            <a href="assets/img/खुशियों के वो लम्हे/5.jpg" data-lightbox="image-1" class="search-ic">
+            <span><img src="assets/img/icons/vl-gallery-search-1.1.svg" alt=""></span>
+            </a>
+          </div>
+        </div>
+        <!-- single gallery box -->
+        <div class="col-lg-3 col-md-6 mb-30">
+          <div class="vl-single-box" data-aos="zoom-in-up" data-aos-duration="1200" data-aos-delay="300">
+            <a href="assets/img/खुशियों के वो लम्हे/8.jpg" data-lightbox="image-1"><img class="w-100" src="assets/img/खुशियों के वो लम्हे/8.jpg" alt=""></a>
+            <a href="assets/img/खुशियों के वो लम्हे/8.jpg" data-lightbox="image-1" class="search-ic">
+            <span><img src="assets/img/icons/vl-gallery-search-1.1.svg" alt=""></span>
+            </a>
+          </div>
+        </div>
+        <!-- single gallery box -->
+        <div class="col-lg-6 col-md-6 mb-30">
+          <div class="vl-single-box" data-aos="zoom-in-up" data-aos-duration="1300" data-aos-delay="300">
+            <a href="assets/img/IMG-20240227-WA0061-1024x770.jpg" data-lightbox="image-1"><img class="w-100" src="assets/img/IMG-20240227-WA0061-1024x770.jpg" alt=""></a>
+            <a href="assets/img/IMG-20240227-WA0061-1024x770.jpg" data-lightbox="image-1" class="search-ic">
+            <span><img src="assets/img/icons/vl-gallery-search-1.1.svg" alt=""></span>
+            </a>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <!--===== MISSION AREA ENDS =======-->
+  
+
+  
   
   
   <!--===== FOOTER AREA STARTS =======-->
@@ -407,7 +289,7 @@
         </div>
       </div>  
   
-       <div class="vl-copyright copyright-border-1">
+       <div class="vl-copyright copyright-border-1 ">
           <div class="row">
             <div class="col-md-6">
               <p class="vl-copyright-text">© 2025 manishamandir.org .All Rights Reserved.</p>

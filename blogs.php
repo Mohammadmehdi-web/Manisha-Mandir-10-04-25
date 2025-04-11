@@ -34,6 +34,20 @@ eet" href="assets/css/plugins/sidebar.css">
       padding-top: 115px;
       margin-top: -0px;
     }
+
+    .vl-gallery-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+
+    }
+
+    .vl-section-title-1 {
+      margin-bottom: 30px;
+
+    }
   </style>
 
 </head>
@@ -75,6 +89,15 @@ eet" href="assets/css/plugins/sidebar.css">
   <!--===== BLOG AREA STARTS =======-->
   <section class="vl-blog-inner sp2">
     <div class="container">
+      <div class="vl-gallery-content mb-60 align-items-center">
+        <div class="vl-section-title-1">
+          <h5 class="subtitle" data-aos="fade-right" data-aos-duration="800" data-aos-delay="300">Our Blogs
+          </h5>
+          <h2 class="title text-anime-style-3">Our Latest Blogs</h2>
+
+        </div>
+
+      </div>
       <div class="row">
         <!-- single blog box -->
         <div class="col-lg-4 col-md-6">
@@ -111,7 +134,7 @@ eet" href="assets/css/plugins/sidebar.css">
 
   <!--===== FOOTER AREA STARTS =======-->
   <?php
-    include('footer.php');
+  include('footer.php');
   ?>
   <!--===== FOOTER AREA ENDS =======-->
 

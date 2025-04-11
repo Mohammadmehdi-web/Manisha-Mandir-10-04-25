@@ -34,6 +34,20 @@ eet" href="assets/css/plugins/sidebar.css">
             padding-top: 115px;
             margin-top: -0px;
         }
+
+        .vl-gallery-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            
+        }
+
+        .vl-section-title-1 {
+            margin-bottom: 30px;
+           
+        }
     </style>
 
 </head>
@@ -41,9 +55,9 @@ eet" href="assets/css/plugins/sidebar.css">
 <body class="homepage1-body">
 
     <!--=====HEADER START=======-->
-        <?php
-            include('header.php');
-        ?>
+    <?php
+    include('header.php');
+    ?>
     <!--=====HEADER END =======-->
 
 
@@ -56,11 +70,11 @@ eet" href="assets/css/plugins/sidebar.css">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="vl-breadcrumb-title">
-                        <h2 class="heading">Our Blog</h2>
+                        <h2 class="heading">Our Gallery</h2>
                         <div class="vl-breadcrumb-list">
                             <span><a href="index.html">Home</a></span>
                             <span class="dvir"><i class="fa-solid fa-angle-right"></i></span>
-                            <span><a class="active" href="#">Our Blog</a></span>
+                            <span><a class="active" href="#">Our Gallery</a></span>
                         </div>
                     </div>
                 </div>
@@ -72,21 +86,14 @@ eet" href="assets/css/plugins/sidebar.css">
     <!--===== BLOG AREA STARTS =======-->
     <section class="vl-gallery sp2">
         <div class="container">
-            <div class="vl-gallery-content mb-60">
+            <div class="vl-gallery-content mb-60 align-items-center">
                 <div class="vl-section-title-1">
                     <h5 class="subtitle" data-aos="fade-right" data-aos-duration="800" data-aos-delay="300">Our Gallery
                     </h5>
-                    <h2 class="title text-anime-style-3">The Frontlines of Relief</h2>
-                    <p data-aos="fade-right" data-aos-duration="800" data-aos-delay="300">These titles aim to convey
-                        emotion and meaning while showcasing <br> the importance of your organization’s work through
-                        visuals.</p>
+                    <h2 class="title text-anime-style-3">Our Gallery</h2>
+
                 </div>
-                <div class="vl-gallery-btn text-end" data-aos="fade-left" data-aos-duration="900" data-aos-delay="300">
-                    <div class="btn-area">
-                        <a href="event-single.html" class="header-btn1">Vineyard Venues <span><i
-                                    class="fa-solid fa-arrow-right"></i></span></a>
-                    </div>
-                </div>
+
             </div>
             <div class="row">
                 <!-- single gallery box -->
@@ -157,7 +164,7 @@ eet" href="assets/css/plugins/sidebar.css">
 
     <!--===== FOOTER AREA STARTS =======-->
     <?php
-        include('footer.php');
+    include('footer.php');
     ?>
     <!--===== FOOTER AREA ENDS =======-->
 
